@@ -24,7 +24,9 @@ jobs:
         run: pwd
         shell: bash
       - name: Print directory files
-        run: dir *.*
+        run: |
+          dir
+          ls -a
         shell: bash
       - name: print some default env variables
         run: |
