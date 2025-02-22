@@ -25,6 +25,7 @@ jobs:
         shell: bash
       - name: Print directory files
         run: dir *.*
+        shell: bash
       - name: print some default env variables
         run: |
           echo "HOME: ${HOME}"
