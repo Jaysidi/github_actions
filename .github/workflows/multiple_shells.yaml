@@ -23,6 +23,8 @@ jobs:
       - name: current directory with bash
         run: pwd
         shell: bash
+      - name: Print directory files
+        run: dir *.*
       - name: print some default env variables
         run: |
           echo "HOME: ${HOME}"
